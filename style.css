@@ -1,0 +1,405 @@
+* {
+    margin: 0px;
+}
+
+.container1 {
+    width: 1440px;
+    margin: auto;
+    height: 58px;
+    background-color: black;
+    margin-bottom: 0px;
+
+}
+
+.header {
+    width: 50px;
+    height: 42px;
+    color: white;
+   
+    padding-top: 10px;
+}
+
+.bigcontainer {
+    width: 1440px;
+
+    height: 3300px;
+    margin: auto;
+
+}
+
+.heading {
+    width: 401px;
+    height: 196px;
+    font-weight: 800;
+    line-height: normal;
+    font-size: 80px;
+    color: #303030;
+    text-align: center;
+   
+}
+
+.firstcard {
+    width: 250px;
+    height: 400px;
+    display: flex;
+    gap: 15px;
+    padding-left: 100px;
+}
+
+.tours {
+    width: 122px;
+    color: #18BA51;
+    margin-left: 100px;
+    margin-top: 250px;
+    font-weight: 400;
+    font-size: 50px;
+
+
+}
+
+.destination {
+    display: flex;
+    color: black;
+    margin-left: 100px;
+    font-size: 50px;
+    width: 358px;
+}
+
+.empty-image {
+    width: 720px;
+    height: 1024px;
+    position: relative;
+}
+
+.secondcards:hover {
+    background-color: black;
+    color: #fff;
+}
+
+
+
+.days {
+
+
+    margin-left: 100px;
+    margin-top: 150px;
+    font-size: 25px;
+    color: black;
+    display: flex;
+
+}
+
+
+
+.bigimg {
+    background-image: url('./image\ 29.png');
+    position: absolute;
+    width: 720px;
+    height: 1024px;
+    right: 0;
+    top: 0;
+    margin-top: 400px;
+
+}
+
+.card1:hover~.bigimg {
+    background-image: url(./image\ 30.png);
+    background-repeat: no-repeat;
+}
+
+.card2:hover~.bigimg {
+    background-image: url(./image\ 30.png);
+    background-repeat: no-repeat;
+}
+
+.card3:hover~.bigimg {
+    background-image: url(./image\ 31.png);
+    background-repeat: no-repeat;
+}
+
+.card4:hover~.bigimg {
+    background-image: url(./image\ 32.png);
+    background-repeat: no-repeat;
+}
+
+.card5:hover~.bigimg {
+    background-image: url(./image\ 33.png);
+    background-repeat: no-repeat;
+}
+
+.card6:hover~.bigimg {
+    background-image: url(./image\ 29.png);
+    background-repeat: no-repeat;
+}
+
+
+.names {
+    width: 200px;
+}
+
+.location {
+    text-align: right;
+    color: #777;
+}
+
+.black:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.black {
+    color: black;
+
+    width: 540px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+
+
+}
+
+.secondcard {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+
+.secondcards {
+    width: 500px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 25px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.section2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section3 {
+    width: 1440px;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.price-img {
+
+    width: 138px;
+    height: 32px;
+
+
+}
+
+.price-title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    width: 299px;
+    height: 118px;
+
+
+}
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    gap: 50px;
+}
+
+.price-list {
+    border: 2px solid black;
+    display: flex;
+    width: 308px;
+
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.list-list {
+    gap: 13px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.luxury {
+    color: #303030;
+    font-size: 32px;
+    font-weight: 700;
+
+}
+
+.starter {
+    color: #777;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.lastsection {
+    justify-content: center;
+
+    background-color: #171717;
+    width: 1440px;
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    margin-top: 100px;
+
+}
+
+.are-you-ready {
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+
+}
+
+button {
+    border-radius: 4px;
+    background-color: #18BA51;
+    display: inline-flex;
+    width: 130px;
+    height: 34px;
+    text-align: center;
+    border: none;
+    justify-content: center;
+    margin-top: 20px;
+    color: #fff;
+    padding: 9px;
+}
+
+.foot {
+    display: flex;
+
+    border-top: 1px solid #1ac74a;
+    padding: 80px 120px;
+
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: #303030;
+
+}
+
+.inside-foot {
+    display: flex;
+    width: 1200px;
+    max-width: 1440px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hey {
+    display: flex;
+    width: 381px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    flex-shrink: 0;
+}
+
+.pine-tour {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 120px;
+}
+
+@media only screen and (max-width:744px) {
+    .container1 {
+        width: 745px;
+    }
+
+    .header {
+        display: flex;
+        width: 745px;
+        padding: 8px 0px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .heading {
+        display: flex;
+width: 664px;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+    }
+    .firstcard{
+        display: inline-flex;
+justify-content: space-between;
+align-items: flex-start;
+align-content: flex-start;
+row-gap: 66px;
+flex-wrap: wrap;
+width: 579px;
+height: 566px;
+      
+    }
+    .list-img{
+        width: 250px;
+        height: 250px;
+    }
+    .sub-heading{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+        width: 744px;
+    }
+    .destination{
+        color: #303030;
+text-align: center;
+
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+    }
+    .bigimg{
+        display: none;
+    }
+    .secondcards{
+        display: flex;
+width: 400px;
+padding: 20px;
+justify-content: space-between;
+align-items: flex-start;
+        
+    }
+    
+   
+
+
+ 
+
+
+}
